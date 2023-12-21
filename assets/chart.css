@@ -1,0 +1,46 @@
+/* Estilização do contêiner do gráfico */
+#tokenomicsChart {
+  
+  max-width: 300px; /* Defina a largura máxima desejada para o gráfico */
+  margin:  auto; 
+
+}
+
+/* Estilização dos rótulos (legendas) do gráfico */
+#tokenomicsChart .chartjs-legend ul {
+  list-style: none; /* Remove os marcadores de lista padrão */
+  padding: 10px;
+  text-align: center; /* Centraliza a legenda horizontalmente */
+  
+}
+
+#tokenomicsChart .chartjs-legend li {
+  display: inline-block; /* Coloca os itens da legenda em linha */
+  margin-right: 10px; /* Espaçamento entre os itens da legenda */
+}
+
+/* Estilização do título do gráfico */
+#tokenomicsChart .chartjs-title {
+  text-align: center; /* Centraliza o título horizontalmente */
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+
+/* Estilização das informações no gráfico (por exemplo, os valores nas fatias) */
+#tokenomicsChart .chartjs-doughnut-text {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+/* Estilização de cores das fatias do gráfico */
+#tokenomicsChart .chartjs-doughnut-segment {
+  transition: background-color 0.3s; /* Transição de cor suave ao passar o mouse sobre as fatias */
+}
+
+#tokenomicsChart .chartjs-doughnut-segment:hover {
+  background-color: #666; /* Cor ao passar o mouse sobre as fatias */
+}
+   
